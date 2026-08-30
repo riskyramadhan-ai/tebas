@@ -3,38 +3,363 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Desa Tebas Sungai | Resmi</title>
+  <meta name="theme-color" content="#080b18">
+  <meta name="description" content="Portal informasi modern Desa Tebas Sungai, Kecamatan Tebas, Kabupaten Sambas.">
+  <title>Tebas Sungai — Portal Desa</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+<div class="progress"></div>
+
+<div class="ambient ambient-a"></div>
+<div class="ambient ambient-b"></div>
+<div class="ambient ambient-c"></div>
+
 <header class="navbar">
+
   <a class="brand" href="index.html">
     <span class="brand-mark">TS</span>
-    <span>Desa Tebas Sungai<small>Kecamatan Tebas</small></span>
+    <span>
+      <b>TEBAS</b>
+      <small>SUNGAI</small>
+    </span>
   </a>
-  <button class="menu-toggle" aria-label="Buka menu">☰</button>
-  <nav>
+
+  <button class="menu-btn" aria-label="Buka menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav class="nav-links">
     <a class="active" href="index.html">Beranda</a>
     <a href="profil.html">Profil</a>
-    <a href="galeri.html">Galeri</a>
+    <a href="sejarah.html">Sejarah</a>
     <a href="berita.html">Berita</a>
+    <a href="galeri.html">Galeri</a>
     <a href="kontak.html">Kontak</a>
   </nav>
+
+  <a class="nav-cta" href="kontak.html">
+    Hubungi Desa <span>↗</span>
+  </a>
+
 </header>
 
-<main class="wrap">
-  <section class="hero">
-    <div class="hero-content">
-      <p class="eyebrow">PORTAL RESMI</p>
-      <h1>Keindahan & Potensi <em>Desa Tebas Sungai</em></h1>
-      <p class="lead">Selamat datang di portal informasi resmi Desa Tebas Sungai. Tempat sinergi masyarakat, pembangunan, dan potensi lokal yang berkembang pesat.</p>
-      <div class="hero-actions">
-        <a class="btn primary" href="profil.html">Jelajahi Desa</a>
-        <a class="btn ghost" href="galeri.html">Lihat Galeri</a>
-      </div>
+
+<main>
+
+<section class="hero reveal">
+
+  <div class="hero-copy">
+
+    <div class="eyebrow">
+      <span class="dot"></span>
+      KABUPATEN SAMBAS · KALIMANTAN BARAT
     </div>
-    <div class="hero-card">
+
+    <h1>
+      Jejak lama,<br>
+      <span>masa depan</span> baru.
+    </h1>
+
+    <p>
+      Portal digital Desa Tebas Sungai untuk mengenal sejarah,
+      kabar, potensi, dan kehidupan masyarakat secara lebih dekat.
+    </p>
+
+    <div class="hero-actions">
+
+      <a class="btn btn-primary" href="profil.html">
+        Jelajahi Desa <span>→</span>
+      </a>
+
+      <a class="btn btn-ghost" href="sejarah.html">
+        Baca sejarah <span>↗</span>
+      </a>
+
+    </div>
+
+    <div class="hero-meta">
+
+      <div>
+        <strong>1938</strong>
+        <span>awal sejarah kampung</span>
+      </div>
+
+      <div>
+        <strong>TEBAS</strong>
+        <span>Kecamatan Tebas</span>
+      </div>
+
+      <div>
+        <strong>SAMBAS</strong>
+        <span>Kalimantan Barat</span>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="hero-visual">
+
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+    <div class="scene-card tilt">
+
+      <div
+        class="scene-image"
+        style="background-image:url('https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1400&q=85')">
+      </div>
+
+      <div class="scene-overlay"></div>
+      <div class="scene-grid"></div>
+
+      <div class="scene-label">
+        <span>TEBAS SUNGAI</span>
+        <b>RIVER • HERITAGE • COMMUNITY</b>
+      </div>
+
+      <div class="floating-chip chip-one">
+        ✦ <span>Local story</span>
+      </div>
+
+      <div class="floating-chip chip-two">
+        ⌁ <span>Since 1938</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="ticker">
+
+  <div>SEJARAH</div>
+  <span>✦</span>
+
+  <div>BUDAYA</div>
+  <span>✦</span>
+
+  <div>MASYARAKAT</div>
+  <span>✦</span>
+
+  <div>POTENSI DESA</div>
+  <span>✦</span>
+
+  <div>TEBAS SUNGAI</div>
+  <span>✦</span>
+
+  <div>SAMBAS</div>
+
+</section>
+
+
+<section class="section reveal">
+
+  <div class="section-head">
+
+    <div>
+      <span class="kicker">01 — KENALI</span>
+      <h2>Satu desa, banyak cerita.</h2>
+    </div>
+
+    <p>
+      Informasi dirangkum menjadi pengalaman digital yang ringan,
+      cepat, dan nyaman di HP maupun komputer.
+    </p>
+
+  </div>
+
+
+  <div class="feature-grid">
+
+    <a class="feature-card large" href="sejarah.html">
+
+      <div
+        class="feature-bg"
+        style="background-image:url('https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1200&q=85')">
+      </div>
+
+      <div class="feature-content">
+
+        <span>SEJARAH</span>
+
+        <h3>Dari kampung hingga hari ini.</h3>
+
+        <p>
+          Telusuri perjalanan Tebas Sungai
+          dan perubahan masyarakatnya.
+        </p>
+
+        <b>Pelajari →</b>
+
+      </div>
+
+    </a>
+
+
+    <a class="feature-card" href="berita.html">
+
+      <div class="icon-box">⌁</div>
+
+      <span>BERITA</span>
+
+      <h3>Kabar terbaru</h3>
+
+      <p>
+        Ruang untuk informasi dan agenda desa.
+      </p>
+
+      <b>Masuk →</b>
+
+    </a>
+
+
+    <a class="feature-card" href="galeri.html">
+
+      <div class="icon-box">◈</div>
+
+      <span>GALERI</span>
+
+      <h3>Wajah Tebas Sungai</h3>
+
+      <p>
+        Kumpulan visual desa, alam,
+        dan aktivitas masyarakat.
+      </p>
+
+      <b>Lihat galeri →</b>
+
+    </a>
+
+  </div>
+
+</section>
+
+
+<section class="quote reveal">
+
+  <div class="quote-mark">“</div>
+
+  <div>
+
+    <p>
+      Sejarah Desa Tebas Sungai dimulai sejak 1938
+      ketika wilayah ini diresmikan sebagai kampung.
+    </p>
+
+    <small>
+      — dirangkum dari penelitian sejarah Desa Tebas Sungai 1938–2024
+    </small>
+
+  </div>
+
+</section>
+
+
+<section class="section reveal">
+
+  <div class="section-head">
+
+    <div>
+      <span class="kicker">02 — EKSPLOR</span>
+      <h2>Yang bisa kamu temukan.</h2>
+    </div>
+
+  </div>
+
+
+  <div class="mini-grid">
+
+    <a href="profil.html" class="mini-card">
+      <span>01</span>
+      <h3>Profil Desa</h3>
+      <p>Lokasi, identitas, dan gambaran umum.</p>
+      <i>↗</i>
+    </a>
+
+    <a href="sejarah.html" class="mini-card">
+      <span>02</span>
+      <h3>Sejarah</h3>
+      <p>Linimasa perjalanan Desa Tebas Sungai.</p>
+      <i>↗</i>
+    </a>
+
+    <a href="berita.html" class="mini-card">
+      <span>03</span>
+      <h3>Berita</h3>
+      <p>Informasi dan referensi terkini.</p>
+      <i>↗</i>
+    </a>
+
+    <a href="kontak.html" class="mini-card">
+      <span>04</span>
+      <h3>Kontak</h3>
+      <p>Alamat kantor dan kanal komunikasi.</p>
+      <i>↗</i>
+    </a>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+  <div>
+
+    <div class="brand">
+      <span class="brand-mark">TS</span>
+
+      <span>
+        <b>TEBAS</b>
+        <small>SUNGAI</small>
+      </span>
+    </div>
+
+    <p>
+      Portal informasi dan cerita Desa Tebas Sungai.
+    </p>
+
+  </div>
+
+
+  <div class="footer-links">
+    <a href="profil.html">Profil</a>
+    <a href="sejarah.html">Sejarah</a>
+    <a href="berita.html">Berita</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="kontak.html">Kontak</a>
+  </div>
+
+
+  <div class="copyright">
+    © 2026 Tebas Sungai
+    <br>
+    <small>Website statis • GitHub Pages ready</small>
+  </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>    <div class="hero-card">
       <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80" alt="Suasana Pemandangan Desa Tebas Sungai">
       <div class="floating-info">
         <span>📍</span>
