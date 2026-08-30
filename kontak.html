@@ -1,40 +1,326 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kontak | Desa Tebas Sungai</title>
-  <link rel="stylesheet" href="style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kontak — Tebas Sungai</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
+
 <body>
+
+<div class="ambient ambient-a"></div>
+<div class="ambient ambient-b"></div>
+
+
 <header class="navbar">
-  <a class="brand" href="index.html"><span class="brand-mark">TS</span><span>Desa Tebas Sungai<small>Kecamatan Tebas</small></span></a>
-  <button class="menu-toggle">☰</button>
-  <nav>
-    <a href="index.html">Beranda</a>
-    <a href="profil.html">Profil</a>
-    <a href="galeri.html">Galeri</a>
-    <a href="berita.html">Berita</a>
-    <a class="active" href="kontak.html">Kontak</a>
-  </nav>
+
+<a class="brand" href="index.html">
+
+<span class="brand-mark">TS</span>
+
+<span>
+<b>TEBAS</b>
+<small>SUNGAI</small>
+</span>
+
+</a>
+
+
+<button class="menu-btn" aria-label="Buka menu">
+
+<span></span>
+<span></span>
+<span></span>
+
+</button>
+
+
+<nav class="nav-links">
+
+<a href="index.html">Beranda</a>
+<a href="profil.html">Profil</a>
+<a href="sejarah.html">Sejarah</a>
+<a href="berita.html">Berita</a>
+<a href="galeri.html">Galeri</a>
+<a class="active" href="kontak.html">Kontak</a>
+
+</nav>
+
+
+<a class="nav-cta" href="#form">
+Kirim pesan <span>↗</span>
+</a>
+
 </header>
+
+
 <main>
-<section class="page-hero wrap">
-  <p class="eyebrow">HUBUNGI KAMI</p>
-  <h1>Kontak<br><em>Desa.</em></h1>
+
+
+<section class="page-hero reveal">
+
+<span class="kicker">
+06 — KONTAK
+</span>
+
+<h1>
+Ayo terhubung
+<br>
+<span>dengan desa.</span>
+</h1>
+
+<p>
+Informasi kontak kantor dan form pesan sederhana
+untuk versi website statis.
+</p>
+
 </section>
-<section class="contact wrap">
-  <div class="contact-info">
-    <h2>Mari terhubung.</h2>
-    <div class="contact-row"><b>📍</b><div><strong>Alamat</strong><span>Desa Tebas Sungai, Kecamatan Tebas, Kabupaten Sambas, Kalimantan Barat</span></div></div>
-  </div>
-  <form class="contact-form" onsubmit="return false">
-    <label>Nama<input type="text" placeholder="Nama Anda"></label>
-    <label>Pesan<textarea rows="4" placeholder="Tulis pesan..."></textarea></label>
-    <button class="btn primary" type="submit">Kirim Pesan →</button>
-  </form>
+
+
+<section class="section reveal">
+
+
+<div class="contact-layout">
+
+
+<div class="contact-card">
+
+<span class="kicker">
+KANTOR DESA
+</span>
+
+<h2>Desa Tebas Sungai</h2>
+
+
+<div class="contact-row">
+
+<span>⌖</span>
+
+<div>
+
+<small>Alamat</small>
+
+<b>
+Jl. H. Said, Tebas Sungai,
+Kecamatan Tebas, Kabupaten Sambas,
+Kalimantan Barat 79461
+</b>
+
+</div>
+
+</div>
+
+
+<div class="contact-row">
+
+<span>☎</span>
+
+<div>
+
+<small>Telepon/HP Desa</small>
+
+<b class="muted">
+Belum ditemukan pada sumber resmi online
+</b>
+
+<em>
+Jangan memasukkan nomor pribadi.
+Isi setelah mendapat nomor resmi dari kantor desa.
+</em>
+
+</div>
+
+</div>
+
+
+<div class="contact-row">
+
+<span>↗</span>
+
+<div>
+
+<small>Peta</small>
+
+<a
+target="_blank"
+rel="noopener"
+href="https://www.google.com/maps/search/?api=1&query=Kantor+Desa+Tebas+Sungai+Sambas">
+Buka lokasi di Google Maps
+</a>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+<form class="contact-form" id="form">
+
+<span class="kicker">
+PESAN
+</span>
+
+<h2>Kirim pertanyaan</h2>
+
+
+<label>
+
+Nama
+
+<input
+required
+type="text"
+placeholder="Nama kamu">
+
+</label>
+
+
+<label>
+
+Email
+
+<input
+required
+type="email"
+placeholder="nama@email.com">
+
+</label>
+
+
+<label>
+
+Pesan
+
+<textarea
+required
+rows="5"
+placeholder="Tulis pesan..."></textarea>
+
+</label>
+
+
+<button class="btn btn-primary" type="submit">
+
+Kirim pesan <span>→</span>
+
+</button>
+
+
+<p class="form-note">
+
+Form ini hanya simulasi untuk website statis
+dan belum terhubung ke database/email.
+
+</p>
+
+
+</form>
+
+
+</div>
+
 </section>
+
+
+<section class="map-card reveal">
+
+<div>
+
+<span class="kicker">
+LOKASI
+</span>
+
+<h2>
+Temukan Tebas Sungai.
+</h2>
+
+<p>
+Kantor Desa Tebas Sungai tercatat berada
+di Jl. H. Said, Tebas Sungai,
+Kecamatan Tebas, Kabupaten Sambas.
+</p>
+
+
+<a
+class="btn btn-ghost"
+target="_blank"
+rel="noopener"
+href="https://www.google.com/maps/search/?api=1&query=Kantor+Desa+Tebas+Sungai+Sambas">
+
+Buka Maps ↗
+
+</a>
+
+</div>
+
+
+<div class="map-art">
+
+<div class="pin">
+✦
+</div>
+
+<div class="map-line"></div>
+
+<span>
+TEBAS SUNGAI
+</span>
+
+</div>
+
+</section>
+
+
 </main>
+
+
+<footer class="footer">
+
+<div>
+
+<div class="brand">
+
+<span class="brand-mark">TS</span>
+
+<span>
+<b>TEBAS</b>
+<small>SUNGAI</small>
+</span>
+
+</div>
+
+<p>
+Portal informasi dan cerita Desa Tebas Sungai.
+</p>
+
+</div>
+
+
+<div class="copyright">
+© 2026 Tebas Sungai
+</div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html></main>
 <footer><div class="copyright">© 2026 Desa Tebas Sungai.</div></footer>
 <script src="script.js"></script>
 </body>
